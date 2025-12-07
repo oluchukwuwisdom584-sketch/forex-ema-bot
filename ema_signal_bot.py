@@ -22,8 +22,8 @@ ALPHA_VANTAGE_API_KEY = os.getenv("AV_API_KEY")
 # Config
 CHECK_INTERVAL_SECONDS = 60
 PAIRS = ["EURUSD"]  # Forex pairs
-TREND_EMA = 200
-ENTRY_EXIT_EMA = 20
+TREND_EMA = 32
+ENTRY_EXIT_EMA = 14
 TIMEFRAME = "15min"  # Alpha Vantage allowed: 1min,5min,15min,30min,60min
 STATE_FILE = "bot_state.json"
 LOG_FILE = "ema_signal_bot.log"
